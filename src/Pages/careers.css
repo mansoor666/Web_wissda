@@ -1,0 +1,35 @@
+.wigtes-career{
+    width:665px;
+                  height: 700px;
+                  overflow: hidden;
+                  color: white; 
+}
+.czjTAa:last-child {
+  margin-right: 454px;
+  margin-top: 5px;
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1399px) {
+  .wigtes-career{
+      width: 530px;
+height: 760px;
+overflow: hidden;
+color: white;
+
+  }
+  .czjTAa:last-child {
+  margin-right: 0px;
+}
+
+}
+/* @media only screen and (min-device-width: 1399px) and (max-device-width: 768px) {
+  .wigtes-career {
+    width: 650px;
+    height: 760px;
+    overflow: hidden;
+    color: white;
+  }
+} */

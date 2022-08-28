@@ -1,0 +1,469 @@
+.container-CS  {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* height: 330px; */
+  width: 358px;
+  height: 205px;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+
+.content-CS {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+
+.heading {
+  font-weight: 900;
+  text-align: center;
+  font-size: 25px;
+}
+
+.content {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.flap1 {
+  width: 100%;
+  height: 100%;
+  /* background: url("./sub-services/Cyber_security_section/Cloud-security.png") white; */
+}
+
+.flap1::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./sub-services/Cyber_security_section/new images/Cloud Security.jpeg") white;
+  background-position: 13.1%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap1::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./sub-services/Cyber_security_section/new images/Cloud Security.jpeg") white;
+  background-position: -210px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container-CS:hover .flap1::after {
+  transform: translatex(300px);
+}
+
+.container-CS:hover .flap1::before{
+  transform: translatex(-300px);
+}
+/* flap2 */
+.flap2 {
+  width: 100%;
+  height: 100%;
+  /* background: url("./sub-services/Cyber_security_section/Cloud-security.png") white; */
+}
+
+.flap2::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./sub-services/Cyber_security_section/new images/App Security.jpeg") white;
+  background-position: 16.1%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap2::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./sub-services/Cyber_security_section/new images/App Security.jpeg") white;
+  background-position: -220px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container-CS:hover .flap2::after {
+  transform: translatex(300px);
+}
+
+.container-CS:hover .flap2::before{
+  transform: translatex(-300px);
+}
+
+
+
+/* flap3 */
+.flap3 {
+  width: 100%;
+  height: 100%;
+  /* background: url("./sub-services/Cyber_security_section/Cloud-security.png") white; */
+}
+
+.flap3::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./sub-services/Cyber_security_section/new images/Vulnerability.jpeg") white;
+  background-position: 9.1%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap3::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./sub-services/Cyber_security_section/new images/Vulnerability.jpeg") white;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container-CS:hover .flap3::after {
+  transform: translatex(300px);
+}
+
+.container-CS:hover .flap3::before{
+  transform: translatex(-300px);
+}
+
+
+/* flap4 */
+.flap4 {
+  width: 100%;
+  height: 100%;
+  /* background: url("./sub-services/Cyber_security_section/Cloud-security.png") white; */
+}
+
+.flap4::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./sub-services/Cyber_security_section/Identity & Access management.jpg") white;
+  background-position: 9.1%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap4::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./sub-services/Cyber_security_section/Identity & Access management.jpg") white;
+  background-position: -208px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container-CS:hover .flap4::after {
+  transform: translatex(300px);
+}
+
+.container-CS:hover .flap4::before{
+  transform: translatex(-300px);
+}
+
+/* flap5 */
+
+.flap5 {
+  width: 100%;
+  height: 100%;
+  /* background: url("./sub-services/Cyber_security_section/Cloud-security.png") white; */
+}
+
+.flap5::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./sub-services/Cyber_security_section/Endpoint Security.png") white;
+  background-position: 9.1%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap5::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./sub-services/Cyber_security_section/Endpoint Security.png") white;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container-CS:hover .flap5::after {
+  transform: translatex(300px);
+}
+
+.container-CS:hover .flap5::before{
+  transform: translatex(-300px);
+}
+
+
+
+
+/* flap6 */
+.flap6 {
+  width: 100%;
+  height: 100%;
+  /* background: url("./sub-services/Cyber_security_section/Cloud-security.png") white; */
+}
+
+.flap6::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./sub-services/Cyber_security_section/new images/Managed Service-1.jpg") white;
+  background-position: 9.1%;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap6::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./sub-services/Cyber_security_section/new images/Managed Service-1.jpg") white;
+  background-position: -197px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container-CS:hover .flap6::after {
+  transform: translatex(300px);
+}
+
+.container-CS:hover .flap6::before{
+  transform: translatex(-300px);
+}
+
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) {
+.container-CS{
+   height: 200px;
+  width: 300px;
+}
+.heading{
+   font-size: 18px;
+}
+.flap1::before {
+  background-position: 23%;
+}
+.flap2::before {
+  background-position: 25%;
+}
+.flap3::before {
+  background-position: 19%;
+}
+.flap4::before {
+  background-position: 19%;
+}
+.flap5::before {
+  background-position: 19%;
+}
+.flap6::before {
+  background-position: 19%;
+}
+}
+@media only screen and (min-device-width: 750px) and (max-device-width: 899px) {
+.container-CS{
+   height: 200px;
+  width: 320px;
+}
+.heading{
+   font-size: 18px;
+}
+.flap1::before {
+  background-position: 20%;
+}
+.flap2::before {
+  background-position: 22%;
+}
+.flap3::before {
+  background-position: 16%;
+}
+.flap4::before {
+  background-position: 16%;
+}
+.flap5::before {
+  background-position: 16%;
+}
+.flap6::before {
+  background-position: 16%;
+}
+}
+@media only screen and (min-device-width: 900px) and (max-device-width: 980px) {
+.container-CS{
+   height: 200px;
+  width: 320px;
+}
+.heading{
+   font-size: 18px;
+}
+.flap1::before {
+  background-position: 20%;
+}
+.flap2::before {
+  background-position: 22%;
+}
+.flap3::before {
+  background-position: 16%;
+}
+.flap4::before {
+  background-position: 16%;
+}
+.flap5::before {
+  background-position: 16%;
+}
+.flap6::before {
+  background-position: 16%;
+}
+}
+@media only screen and (min-device-width: 980px) and (max-device-width: 990px) {
+.container-CS{
+   height: 200px;
+  width: 330px;
+}
+.heading{
+   font-size: 18px;
+}
+.flap1::before {
+  background-position: 18%;
+}
+.flap2::before {
+  background-position: 21%;
+}
+.flap3::before {
+  background-position: 16%;
+}
+.flap4::before {
+  background-position: 16%;
+}
+.flap5::before {
+  background-position: 16%;
+}
+.flap6::before {
+  background-position: 16%;
+}
+}
+
+@media only screen and (min-device-width: 990px) and (max-device-width: 1020px) {
+.container-CS{
+   height: 200px;
+  width: 293px;
+}
+
+.heading{
+   font-size: 18px;
+}
+.flap1::before {
+  background-position: 24%;
+}
+.flap2::before {
+  background-position: 26%;
+}
+.flap3::before {
+  background-position: 20%;
+}
+.flap4::before {
+  background-position: 20%;
+}
+.flap5::before {
+  background-position: 20%;
+}
+.flap6::before {
+  background-position: 20%;
+}
+
+}
+  @media only screen and (min-device-width: 1020px) and (max-device-width: 1199px ) {
+.container-CS{
+   height: 200px;
+  width: 280px;
+}
+
+.heading{
+   font-size: 20px;
+}
+.flap1::before {
+  background-position: 26%;
+}
+.flap2::before {
+  background-position: 28%;
+}
+.flap3::before {
+  background-position: 22%;
+}
+.flap4::before {
+  background-position: 22%;
+}
+.flap5::before {
+  background-position: 22%;
+}
+.flap6::before {
+  background-position: 22%;
+}
+
+}
+
+@media only screen and (min-device-width: 1199px) and (max-device-width: 1399px ) {
+
+.container-CS{
+   height: 200px;
+  width: 300px;
+}
+
+.heading{
+   font-size: 18px;
+}
+.flap1::before {
+  background-position: 23%;
+}
+.flap2::before {
+  background-position: 25%;
+}
+.flap3::before {
+  background-position: 19%;
+}
+.flap4::before {
+  background-position: 19%;
+}
+.flap5::before {
+  background-position: 19%;
+}
+.flap6::before {
+  background-position: 19%;
+}
+
+}
